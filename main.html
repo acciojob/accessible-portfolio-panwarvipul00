@@ -1,16 +1,52 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  
+<html lang="en">  
 
-<html>
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>My Accessible Portfolio</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<body>  
+    <header>  
+        <h1 role="heading">Welcome to My Portfolio</h1>  
+    </header>  
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <nav role="navigation">  
+        <ul role="list">  
+            <li role="listitem"><a href="#about">About Me</a></li>  
+            <li role="listitem"><a href="#projects">Projects</a></li>  
+            <li role="listitem"><a href="#contact">Contact</a></li>  
+        </ul>  
+    </nav>  
 
-</body>
+    <main>  
+        <section id="about">  
+            <h2 role="heading">About Me</h2>  
+            <img src="profile.jpg" alt="A portrait of vipul smiling" role="img">  
+            <p>  
+                I am a web developer with a passion for creating accessible and engaging user experiences. With a strong background in HTML, CSS, and JavaScript, I specialize in developing responsive websites that work seamlessly across devices.  
+            </p>  
+        </section>  
 
-</html>
+        <section id="projects">  
+            <h2 role="heading">My Projects</h2>  
+            <ul role="list">  
+                <li role="listitem">Project One: A Responsive Website</li>  
+                <li role="listitem">Project Two: Accessibility Audit Tool</li>  
+                <li role="listitem">Project Three: Interactive Web Game</li>  
+            </ul>  
+        </section>  
+
+        <section id="contact">  
+            <h2 role="heading">Contact Me</h2>  
+            <p>Email: <a href="panwarvipul1234@gmail.com">vipul.doe@example.com</a></p>  
+        </section>  
+    </main>  
+
+     
+
+    <script src="script.js"></script>  
+</body>  
+</html>  
